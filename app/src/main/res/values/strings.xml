@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Agenda de contactos</string>
+    <string name= "ingreso_usuario">Ingreso de Usuario</string>
+    <string name= "ingreso_contraseña">Ingreso de Contraseña</string>
+    <string name= "inicio_sesion">Iniciar Sesión</string>
+    <string name="crear_usuario">Crear Usuario</string>
 </resources>
+                                

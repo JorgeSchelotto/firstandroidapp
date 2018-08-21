@@ -4,3 +4,4 @@
 
 Autor: Jorge Schelotto.
 Licencia: MIT.
+IDE: Android Studio.
