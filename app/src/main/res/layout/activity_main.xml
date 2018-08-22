@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:text="@string/ingreso_usuario" />
 
     <EditText
@@ -46,7 +46,9 @@
         android:layout_marginTop="30dp"
 
         android:orientation="horizontal"
-        android:weightSum="100">
+        android:weightSum="100"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
 
         <Button
             android:id="@+id/btnIniciarSesion"
@@ -54,7 +56,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="50"
-            android:text="@string/inicio_sesion" />
+            android:text="@string/inicio_sesion"
+            android:layout_marginRight="20dp"/>
 
         <Button
             android:id="@+id/btnCrearUsuario"
@@ -62,7 +65,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="50"
-            android:text="@string/crear_usuario" />
+            android:text="@string/crear_usuario"
+            android:layout_marginLeft="20dp"/>
 
     </LinearLayout>
 
